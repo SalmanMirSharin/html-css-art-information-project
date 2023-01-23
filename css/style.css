@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+.head{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    /* background-color: rgba(17, 17, 116, 0.937); */
+    background-color: rgb(11, 11, 43);
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+    /* border-bottom: 2px solid gray; */
+    box-shadow: 5px 4px 10px gray;
+   
+    
+    
+}
+
+/* .main_header{
+    /* overflow: hidden; */
+    /* position: sticky;
+}  */
+
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+    /* position: relative; */
+    
+   
+}
+
+.nav{
+    margin-left: 60px;
+   
+}
+
+.nav ul li a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    word-spacing: -6px;
+    /* color: rgb(211, 209, 199); */
+    color: bisque;
+    padding: 10px;
+    
+}
+.nav ul li a:hover{
+    background-color: rgb(26, 57, 57);
+    border-radius: 5px;
+    /* font-size: 1.7em; */
+    transition: 0.5s;
+    
+}
+
+.bac{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(169, 100, 232);
+    opacity: 0.3;
+    position: absolute;
+
+}
+
+.art_page{
+    /* color: rgb(248, 240, 246); 
+    font-size: 50px; */
+    width: 600px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid gray;
+    background-color: rgb(72, 80, 78);
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.5;
+}
+.head-p{
+    /* color: rgb(236, 192, 81);  */
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    z-index: 2;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px orange;
+    font-weight: bold;
+    
+}
+
+.art_top{
+    /* height: calc(100%-100px); */
+   
+     height: 100vh;
+    background-image: url('../image/art-top.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    position: relative;
+  
+    
+
+    
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+}
+
+.about_head{
+    /* margin-left: 50%; */
+    text-align: center;
+    font-size: 2.1em;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+   
+}
+
+.about p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.art-imag-head{
+    width: 30%;
+    margin: 35%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.art-img-content{
+    width: 90%;
+    margin: auto;
+}
+
+.art_all_img{
+    display: flex;
+
+}
+.art_img{
+
+    width: 100% ;
+}
+
+.art_img img{
+    margin: 10px; 
+    padding: 10px;
+    width: 400px ;
+    height: 400px;
+    /* border: 3px solid gray; */
+    border-radius: 20px;
+}
+
+.artist_detail_parent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+.item{
+    flex-basis: 300px;
+    
+
+}
+
+.item img{
+    margin: 10px; 
+    padding: 10px;
+    width: 250px ;
+    /* height: 400px; */
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    border: 2px solid gray;
+    /* box-shadow: 5px 5px; */
+    box-shadow: 10px 5px 10px 5px gray;
+
+}
+
+.artist_detail h3{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.artist_detail_parent .item{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.footer_tag{
+    background-color: rgb(33, 33, 87);
+    height: 200px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    /* margin: auto; */
+    justify-content: center;
+}
+
+.contact{
+    flex-basis: 350px;
+    color: wheat;
+    margin-left: 50px;
+    
+}
+.contact a{
+    text-decoration: none;
+    color:wheat ;
+}
+
+.contact h5{
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.contact p{
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+
+.copy-right{
+    flex-basis: 350px;
+    color: wheat;
+    /* margin-left: px; */
+    
+}
+
+.copy-right p{
+    margin-left: 110px;
+    font-size: 19px;
+    /* align-items: flex-start; */
+    margin-top: 140px;
+    letter-spacing: 2px;
+    
+}
+.solal-midia{
+    flex-basis: 350px;
+    margin-left: 100px;
+}
+.solal-midia a img{
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+.solal-midia p{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.item .artist_name_h4{
+    background-color: rgb(11, 11, 43);
+    color: bisque;
+    font-size: 1.2em;
+    border-radius: 10px;
+    letter-spacing: 3px;
+}
+
+
+.form_tag{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    display: block;
+    
+}
+
+.form_tag .text_field{
+    width: 300px;
+    height: 50;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid rgb(147, 129, 26);
+    margin-left: 38%;
+    font-size: 23px;
+}
+
+.form_tag .submit_field{
+    width: 80px;
+    padding: 10px;
+    border: 1px solid sandybrown;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: bisque;
+
+}
+
+.form_tag h4{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.form_tag .text_field::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.5;
+    color:rgb(21, 81, 61);
+}
